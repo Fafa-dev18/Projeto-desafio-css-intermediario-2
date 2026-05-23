@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #989d9c;
+  margin: 44px 0px 144px 76px;
+}
+
+.link-header {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #989d9c;
+  cursor: pointer;
+  margin-right: 23px;
+}
+
+.botao-header {
+  background: #665ae1;
+  width: 130px;
+  height: 41px;
+  border-radius: 20.5px;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  cursor: pointer;
+}
+
+#main-h1 {
+  width: 513px;
+  height: 122px;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 100%;
+  color: #515151;
+}
+
+#main-h2 {
+  width: 448px;
+  height: 71px;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 100%;
+  color: #515151;
+}
+
+#main-p {
+  width: 515px;
+  height: 87px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  color: #848484;
+  margin-top: 32px;
+  margin-bottom: 65px;
+}
+
+#main-button {
+  background: #adff00;
+  width: 239px;
+  height: 64px;
+  border-radius: 20.05px;
+  border: none;
+  color: #000000;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 100%;
+  margin: 75px 0px 0px 0px;
+  cursor: pointer;
+}
+
+#main-button:hover {
+  opacity: 0.5;
+}
+.link-header:hover {
+  opacity: 0.5;
+}
+.botao-header:hover {
+  opacity: 0.5;
+}
+
+section {
+  width: 568px;
+  height: 500px;
+  margin-left: 125px;
+  display: inline-block;
+}
+
+main div {
+  margin-left: 86px;
+  display: inline-block;
+}
+
+@media screen and (max-width: 800px) {
+  header {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  div {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  section {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  #main-p {
+    display: none;
+  }
+
+  img {
+    width: 354px;
+    height: 317px;
+    position: absolute;
+    left: 26px;
+    top: 200px;
+  }
+
+  #main-h1 {
+    width: 263px;
+    height: 52px;
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 25px auto 10px 0px;
+  }
+
+  #main-h2 {
+    width: 362px;
+    height: 37px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0px auto 0px auto;
+  }
+
+  #main-button {
+    margin: 17px auto 20px auto;
+  }
+}
